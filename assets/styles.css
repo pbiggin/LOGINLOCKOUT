@@ -30,7 +30,7 @@ body {
 
 @font-face {
     font-family: 'Satoshi';
-    src: url(/assets/Satoshi-Black.otf);
+    src: url(assets/Satoshi-Black.otf);
     font-weight: normal;
     font-style: bold;
 
@@ -38,7 +38,7 @@ body {
 
 @font-face {
     font-family: 'PPNeueBit';
-    src: url(/assets/PPNeueBit-Bold.otf);
+    src: url(assets/PPNeueBit-Bold.otf);
     font-weight: normal;
     font-style: bold;
 
