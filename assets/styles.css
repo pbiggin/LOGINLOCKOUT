@@ -30,17 +30,17 @@ body {
 
 @font-face {
     font-family: 'Satoshi';
-    src: url(assets/Satoshi-Black.otf);
-    font-weight: normal;
-    font-style: bold;
+    src: url(../assets/Satoshi-Black.otf) format('opentype');
+    font-weight: 900;
+    font-style: normal;
 
 } 
 
 @font-face {
     font-family: 'PPNeueBit';
-    src: url(assets/PPNeueBit-Bold.otf);
-    font-weight: normal;
-    font-style: bold;
+    src: url(../assets/PPNeueBit-Bold.otf) format('opentype');
+    font-weight: 900;
+    font-style: normal;
 
 } 
 
@@ -93,7 +93,6 @@ button:hover {
     padding: 2vw;
     align-items: center;
     font-weight: normal;
-    font-style: bold;
 }
 
 .logo {
