@@ -1,0 +1,144 @@
+:root {
+    --citron: #DDE14F;
+    --error403: #2F2F81;
+    --blackberry: #21001F;
+    --lightMode: #F0F3F7;
+    --chrome: #C4D1D9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.interact:hover {
+    color: var(--error403);
+    text-decoration: underline;
+}
+
+.interact {
+    transition: color 0.2s ease;
+}
+
+.blueperson {
+    width: 25%;
+}
+body {
+    background-color: var(--lightMode);
+    color: var(--blackberry);
+}
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url(/assets/Satoshi-Black.otf);
+    font-weight: normal;
+    font-style: bold;
+
+} 
+
+@font-face {
+    font-family: 'PPNeueBit';
+    src: url(/assets/PPNeueBit-Bold.otf);
+    font-weight: normal;
+    font-style: bold;
+
+} 
+
+h1 {
+    font-family: 'Satoshi', sans-serif;
+    text-transform: uppercase;
+    font-size: 5vw;
+    line-height: 120%;
+}
+
+.notasbig {
+    font-size: 3vw;
+}
+
+h2 {
+     font-family: 'PPNeueBit', sans-serif;
+      text-transform: uppercase;
+      font-size: 3vw;
+      line-height: 100%;
+}
+
+button {
+    background-color: var(--error403);
+    margin-top: 2vw;
+    color: var(--lightMode);
+    text-decoration: none;
+    font-family: 'PPNeueBit', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+    padding: 1vw;
+    border: solid var(--chrome);
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: var(--citron);
+    color: var(--blackberry);
+    border: solid var(--blackberry);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 1vw 0 1vw;
+    justify-content: space-between;
+    font-family: 'Satoshi', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    padding: 2vw;
+    align-items: center;
+
+}
+
+.logo {
+    width: 6%;
+}
+
+.logo.big {
+    width: 100%;
+
+}
+
+main {
+    padding: 0 2vw 3vw 2vw;
+}
+
+.callout {
+    background-color: var(--chrome);
+    padding: 3vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Albert Sans", sans-serif;
+    
+}
+
+.content {
+    font-size: 1.5vw;
+    padding-top: 1vw;
+}
+
+.people {
+    display: flex;
+    padding: 0 2vw 0 2vw;
+    flex-wrap: wrap;
+}
+
+.people > img {
+    width: 5%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 0 2vw 0;
+    padding: 2vw;
+    font-family: 'PPNeueBit', sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
